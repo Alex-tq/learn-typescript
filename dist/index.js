@@ -1,4 +1,7 @@
 "use strict";
-//Specify types by adding ": typeName" after the variable.
-//Typescript will also do type inference even if the type is not specified.
+Object.defineProperty(exports, "__esModule", { value: true });
 let id = 5;
+let name = "Alex";
+let isHuman = true;
+let x = "Hello";
+x = "10";
