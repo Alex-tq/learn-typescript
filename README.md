@@ -6,11 +6,11 @@ Leaning typescript syntax
 
 From the terminal use this command to install typescrip:
 
-"npm i typescript"
+$ npm i typescript
 
 or to install globally use:
 
-"npm i -g typescript"
+$ npm i -g typescript
 
 ## To Start writing typescript
 
@@ -18,22 +18,26 @@ To be able to use typescript the file extension should be .ts or .tsx for React.
 
 ## Compile Typescript
 
-To compile your typescript file from the terminal
+To compile a specific typescript file from the terminal
 type the following command:
 
-"tsc filename"
+$ tsc filename
+
+Or let typescript find and complile all files automtically
+
+$ tsc
 
 ## Watch a File for Compiling on Save
 
 To complile automaticlly everytime you save on the typescript file, type this into the terminal:
 
-"tsc --watch filiname"
+$ tsc --watch filiname
 
 ## Get Typescript's Configuration File
 
 To configure typescript you must modify the tsconfig.json file. to get this file type the following command in the terminal:
 
-"tcs --init"
+$ tcs --init
 
 ## Compile to ES6
 
