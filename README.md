@@ -42,3 +42,7 @@ $ tcs --init
 ## Compile to ES6
 
 By default typescript will compile your code to es5. to change this go to the "compilerOptions" section of the tsconfig.json file and set the value of "target" to "es6"
+
+## Control Where the Compiled JavasCript Goes.
+
+To specify were you want typescript to create your compiled javaSript file, in the tsconfig.json file set the "rootDir" key to the name of the folder where your typescript code will be, and set "outDir" key to the name of where you want the compiled javascript code to be.
