@@ -12,3 +12,4 @@ let people = [
     [1, "Jonh"],
     [2, "Jane"],
 ];
+let num = 22;

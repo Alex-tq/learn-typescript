@@ -20,3 +20,7 @@ let people: [number, string][] = [
   [1, "Jonh"],
   [2, "Jane"],
 ]; //Array of tuples
+
+//Union - A variable that can store multuple types of values.
+
+let num: string | number = 22; //Num cna be either a number or a string
