@@ -28,15 +28,15 @@ let num: string | number = 22; //Num cna be either a number or a string
 //Enum - define a set of named constants
 
 enum Directions1 {
-  up = 2,
-  down,
-  left,
-  right,
+  Up = 2,
+  Down,
+  Left,
+  Right,
 } //the 1st get a value of 0 by default and the value of the rest increment in order based on the value of the first.
 
 enum Directions2 {
-  up = "Up",
-  down = "down",
-  left = "left",
-  right = "right",
+  Up = "Up",
+  Down = "down",
+  Left = "left",
+  Right = "right",
 }
