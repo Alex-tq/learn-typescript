@@ -78,3 +78,8 @@ class Employee extends Person {
     }
 }
 const employee = new Employee(10, "alex", "Frontend Engineer");
+function getArray(items) {
+    return new Array().concat(items);
+}
+let numArray = getArray([1, 2, 3]);
+let strArray = getArray(["John", "Jane", "Alex"]);

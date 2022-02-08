@@ -147,7 +147,7 @@ class Person2 implements PersonInterface {
 
 const alex = new Person2(10, "alex");
 
-// Extending classes
+// Extending classes (Subclasses)
 class Employee extends Person {
   position: string;
   constructor(id: number, name: string, position: string) {
@@ -157,3 +157,12 @@ class Employee extends Person {
 }
 
 const employee = new Employee(10, "alex", "Frontend Engineer");
+
+//Generics - To build reusable components
+
+function getArray<T>(items: T[]): T[] {
+  return new Array().concat(items);
+}
+
+let numArray = getArray<number>([1, 2, 3]);
+let strArray = getArray<string>(["John", "Jane", "Alex"]);
