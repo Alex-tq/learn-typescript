@@ -40,3 +40,34 @@ enum Directions2 {
   Left = "left",
   Right = "right",
 }
+
+//Objects
+
+// specify the types for the keys in the object
+
+// method 1
+const user1: {
+  id: number;
+  name: string;
+} = {
+  id: 1,
+  name: "John Doe",
+};
+
+//method 2
+
+type User = {
+  id: number;
+  name: string;
+};
+
+const user2: User = {
+  id: 2,
+  name: "Jane Doe",
+};
+
+//Type Assertion - Tell typescript to treat something as a different type.
+
+let cid = 1;
+let customerId = <number>cid;
+let customerId2 = cid as number;

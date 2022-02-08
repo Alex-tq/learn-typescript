@@ -27,3 +27,14 @@ var Directions2;
     Directions2["Left"] = "left";
     Directions2["Right"] = "right";
 })(Directions2 || (Directions2 = {}));
+const user1 = {
+    id: 1,
+    name: "John Doe",
+};
+const user2 = {
+    id: 2,
+    name: "Jane Doe",
+};
+let cid = 1;
+let customerId = cid;
+let customerId2 = cid;
