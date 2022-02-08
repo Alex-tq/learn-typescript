@@ -61,3 +61,13 @@ class Person {
 }
 const john = new Person(1, "John Doe");
 const jane = new Person(2, "Jane Doe");
+class Person2 {
+    constructor(id, name) {
+        this.id = id;
+        this.name = name;
+    }
+    register() {
+        return `${this.name} is now Registered`;
+    }
+}
+const alex = new Person2(10, "alex");

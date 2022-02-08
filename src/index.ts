@@ -123,3 +123,24 @@ class Person {
 
 const john = new Person(1, "John Doe");
 const jane = new Person(2, "Jane Doe");
+
+interface PersonInterface {
+  id: number;
+  name: string;
+  register(): string;
+}
+
+class Person2 implements PersonInterface {
+  id: number;
+  name: string;
+
+  constructor(id: number, name: string) {
+    this.id = id;
+    this.name = name;
+  }
+  register() {
+    return `${this.name} is now Registered`;
+  }
+}
+
+const alex = new Person2(10, "alex");
