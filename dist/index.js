@@ -50,3 +50,11 @@ const user3 = {
 };
 const add = (a, b) => a + b;
 const substract = (a, b) => a - b;
+class Person {
+    constructor(id, name) {
+        this.id = id;
+        this.name = name;
+    }
+}
+const john = new Person(1, "John Doe");
+const jane = new Person(2, "Jane Doe");

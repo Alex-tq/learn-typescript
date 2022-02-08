@@ -105,3 +105,18 @@ interface MathFunc {
 
 const add: MathFunc = (a: number, b: number): number => a + b;
 const substract: MathFunc = (a: number, b: number): number => a - b;
+
+//Classes
+
+class Person {
+  id: number;
+  name: string;
+
+  constructor(id: number, name: string) {
+    this.id = id;
+    this.name = name;
+  }
+}
+
+const john = new Person(1, "John Doe");
+const jane = new Person(2, "Jane Doe");
