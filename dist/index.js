@@ -38,3 +38,9 @@ const user2 = {
 let cid = 1;
 let customerId = cid;
 let customerId2 = cid;
+function addNum(a, b) {
+    return a + b;
+}
+function log(message) {
+    console.log(message);
+}

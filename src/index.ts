@@ -71,3 +71,15 @@ const user2: User = {
 let cid = 1;
 let customerId = <number>cid;
 let customerId2 = cid as number;
+
+//Functions
+
+//----------------param types--------return type----
+function addNum(a: number, b: number): number {
+  return a + b;
+}
+
+//void: the funtion doesn't return anything
+function log(message: string | number): void {
+  console.log(message);
+}
