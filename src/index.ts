@@ -109,12 +109,15 @@ const substract: MathFunc = (a: number, b: number): number => a - b;
 //Classes
 
 class Person {
-  id: number;
-  name: string;
-
+  private id: number; //Access modifier "private" only accesible within the class
+  protected name: string; //Access modifier "protected" only accesible withing the class or extended from class
+  // Access modifier "public" means its accessible from anywhere. public is the default value.
   constructor(id: number, name: string) {
     this.id = id;
     this.name = name;
+  }
+  register() {
+    return `${this.name} is now Registered`;
   }
 }
 
