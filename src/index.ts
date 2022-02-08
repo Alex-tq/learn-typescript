@@ -83,3 +83,25 @@ function addNum(a: number, b: number): number {
 function log(message: string | number): void {
   console.log(message);
 }
+
+// Interfaces
+
+//For objects
+interface UserInterface {
+  readonly id: number; //Can't be changed
+  name: string;
+  age?: number; //This "?" makes it optional
+}
+
+const user3: UserInterface = {
+  id: 2,
+  name: "Jane Doe",
+};
+
+//For functions
+interface MathFunc {
+  (a: number, b: number): number;
+}
+
+const add: MathFunc = (a: number, b: number): number => a + b;
+const substract: MathFunc = (a: number, b: number): number => a - b;

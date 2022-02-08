@@ -44,3 +44,9 @@ function addNum(a, b) {
 function log(message) {
     console.log(message);
 }
+const user3 = {
+    id: 2,
+    name: "Jane Doe",
+};
+const add = (a, b) => a + b;
+const substract = (a, b) => a - b;
