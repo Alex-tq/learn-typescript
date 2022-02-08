@@ -124,6 +124,8 @@ class Person {
 const john = new Person(1, "John Doe");
 const jane = new Person(2, "Jane Doe");
 
+// Define classes with interfaces
+
 interface PersonInterface {
   id: number;
   name: string;
@@ -144,3 +146,14 @@ class Person2 implements PersonInterface {
 }
 
 const alex = new Person2(10, "alex");
+
+// Extending classes
+class Employee extends Person {
+  position: string;
+  constructor(id: number, name: string, position: string) {
+    super(id, name); // passes params to constructor class from which it extends
+    this.position = position;
+  }
+}
+
+const employee = new Employee(10, "alex", "Frontend Engineer");
